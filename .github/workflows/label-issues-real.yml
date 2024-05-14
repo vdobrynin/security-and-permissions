@@ -6,7 +6,7 @@ on:
 jobs:
   assign-label:
     permissions: 
-      issues: read
+      issues: write
     runs-on: ubuntu-latest
     steps:
       - name: Assign label
